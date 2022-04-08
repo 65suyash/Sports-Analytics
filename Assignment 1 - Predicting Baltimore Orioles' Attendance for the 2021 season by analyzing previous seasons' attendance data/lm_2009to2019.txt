@@ -1,0 +1,421 @@
+
+Call:
+lm(formula = attendance ~ opponent + day + bobblehead + promo, 
+    data = my_data)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-13696      0      0      0  16715 
+
+Coefficients: (4 not defined because of singularities)
+                                                    Estimate Std. Error t value
+(Intercept)                                         28718.96   11437.34   2.511
+opponentATL                                          -249.96   13105.74  -0.019
+opponentBOS                                         -5640.81   11218.85  -0.503
+opponentCHC                                         -3281.37   12119.28  -0.271
+opponentCIN                                        -21092.11   13221.29  -1.595
+opponentCLE                                        -10994.45   11351.47  -0.969
+opponentCOL                                         -6262.38   12352.39  -0.507
+opponentCWS                                        -16694.20   11268.67  -1.481
+opponentDET                                         -6114.17   11435.40  -0.535
+opponentHOU                                        -10409.25   11822.32  -0.880
+opponentKC                                         -14049.87   11212.38  -1.253
+opponentLAA                                         -9806.20   11385.66  -0.861
+opponentLAD                                         -6953.62   12832.85  -0.542
+opponentMIA                                        -13611.56   12977.84  -1.049
+opponentMIN                                        -12961.21   11485.87  -1.128
+opponentNYM                                         -6766.87   12337.30  -0.548
+opponentNYY                                         -4743.48   11112.41  -0.427
+opponentOAK                                        -11387.86   11434.08  -0.996
+opponentPHI                                         -3339.02   11756.57  -0.284
+opponentPIT                                        -14355.57   12940.51  -1.109
+opponentSD                                          -9869.74   12058.49  -0.818
+opponentSEA                                        -11317.21   11705.44  -0.967
+opponentSF                                         -16022.60    9903.62  -1.618
+opponentSTL                                         -9036.42   12154.78  -0.743
+opponentTB                                         -14578.58   11345.17  -1.285
+opponentTEX                                        -16234.79   11459.33  -1.417
+opponentTOR                                        -11784.18   11330.65  -1.040
+opponentWSH                                          2707.07   11613.15   0.233
+dayMon                                              -2818.42    7650.57  -0.368
+daySat                                               6655.64    9356.29   0.711
+daySun                                               2510.04    9479.72   0.265
+dayThu                                                683.51    8328.00   0.082
+dayTue                                              -3045.95   10279.83  -0.296
+dayWed                                              -2011.78    8659.69  -0.232
+bobblehead                                           7549.97   11115.18   0.679
+promo(1st Freddie Gray Hearing)                      3834.39   10634.90   0.361
+promo(2:14 RAIN DELAY)                              -6552.54   11831.66  -0.554
+promo(4/19 RAIN - 4/20 split adm DH)                -1609.98   12676.76  -0.127
+promo(4:35Rain delay)T-shirt,Dugout,KRTB             8914.25   11822.32   0.754
+promo(Day before Grand Prix Weekend)                -2567.27    9423.02  -0.272
+promo(Rain Delay 1:38)                               3005.60   10789.30   0.279
+promo(Rain Delay 2 hours 31 min)                     3667.74    9429.39   0.389
+promo(Ravens Opening Date conflict)                  4674.73    9423.02   0.496
+promo(short game due to rain)                        5093.62   10586.71   0.481
+promo(Time change)                                   4972.60   11135.77   0.447
+promo(tornado watch earlier)                        -3663.67    9250.90  -0.396
+promo1954 Orioles Cap                               16014.58   11345.17   1.412
+promo1966 Jim Palmer Jersey, Dugout Club            17586.45   11351.47   1.549
+promo1970 WS 40th Anniversary Celebration           -9446.68   11427.92  -0.827
+promo1983 Floppy Hat, Student, Fireworks            25725.22   12298.89   2.092
+promo200th Anniversary of the Star Spangled Banner  17461.48   11112.41   1.571
+promo2014 AL East Champions Wall Art                15306.57   11157.24   1.372
+promo20th Anniv Tumbler Voucher & T-Shirt            8216.32   11427.92   0.719
+promo2110 Eutaw Street                              -1254.44    9272.72  -0.135
+promo2110 Eutaw Street, Girl Scout Night             5530.59   11201.82   0.494
+promo25 min. rain delay                             15031.20   11028.44   1.363
+promo25th Anniversary Replica Ballpark              10810.62    9306.73   1.162
+promo30 min. rain delay                             -5918.36   10512.96  -0.563
+promo4/22 ~ 8/27 Makeup game                         9182.00    9049.60   1.015
+promo4/29 & 4/30 DH Makeup games                    13243.09   11202.73   1.182
+promo4/9 Makeup Game                                -2567.03   11115.18  -0.231
+promo5/06 Makeup game                               -8876.75   11210.43  -0.792
+promo5/15 Makeup Game                               -5963.46    9921.70  -0.601
+promo6/27 Makeup Game, Kids run Bases               19771.45   11351.47   1.742
+promo6/3 Makeup                                      1813.87   10903.61   0.166
+promo60th Anniversary 3/4 sleeve T Shirt            22085.25   12741.63   1.733
+promo60th Anniversary Laser show                    24060.46   13240.43   1.817
+promo7/25 Makeup, BARCS                            -11730.80   11028.44  -1.064
+promo8/26 Makeup Game                               16898.64   10512.96   1.607
+promo8/27 Makeup Game                               11042.48   11112.41   0.994
+promoA League of Their Own Movie, T-shirt           -4462.41   11201.82  -0.398
+promoAdam Jones Bobblehead                           4415.71   11466.20   0.385
+promoAdam Jones Mini Bobblehead, Kids Night         -7943.89   12781.24  -0.622
+promoAdam Jones Replica Jersey                      22559.57   11157.24   2.022
+promoAT&T Matt Weiters Bobblehead                   -1477.30   10429.46  -0.142
+promoAT&T Student Night                              1491.81   10888.48   0.137
+promoAT&T Student Night, Fireworks                   1835.22   12298.89   0.149
+promoAT&T Student Nigjht                             8786.51   12298.41   0.714
+promoAutism Awareness Day                           -5227.90    9259.22  -0.565
+promoAutism Awareness Night                          6855.57   11157.24   0.614
+promoAutism Awareness/Student Night                  7887.24   12563.42   0.628
+promoBargain                                        10440.09   10516.88   0.993
+promoBargain Night                                   4300.55   10094.42   0.426
+promoBargain Night, Bud Norris T-shirt              17931.77   12160.48   1.475
+promoBargain Night, Cal Ripken 2131                 11892.56   12036.35   0.988
+promoBargain Night, DC #3                            6277.23   12499.03   0.502
+promoBargain Night, Miller Lite Flopy Hat           14862.97   12729.30   1.168
+promoBargain, Birdland Social Media Night           15161.85   12984.63   1.168
+promoBargain, Social Media Night                     3168.95   13695.63   0.231
+promoBark at the Park                               -8171.21   10032.60  -0.814
+promoBark in the Park                               -4839.33   10755.21  -0.450
+promoBaseball Cards, Orioles HOF                    -5682.80   11028.44  -0.515
+promoBBQ "O" Spatula, Dugout Club                   18310.57   11157.24   1.641
+promoBeach Towel                                    14627.97    9425.17   1.552
+promoBergesen T-Shirt Tuesday, Bargain Night         8720.84   12124.71   0.719
+promoBird Bank, Kids run bases                      -1055.79   11485.87  -0.092
+promoBird Bobblehead                                 9157.59    9385.30   0.976
+promoBird Bobblehead, Toothbrush holder              -776.40    9903.62  -0.078
+promoBirdland Hawaiian Shirt                         8641.78   10142.00   0.852
+promoBirdland Social                                 8212.43   12148.77   0.676
+promoBirdland Social Media Night                     6947.55   11318.88   0.614
+promoBirdland Summer Garden Gnome                    5803.58   11345.17   0.512
+promoBirdland Yard Flag                             -2032.09   12325.10  -0.165
+promoBoy Scout Night                                -4974.68   11427.92  -0.435
+promoBP Pullover                                    12243.97   11115.18   1.102
+promoBrian Matusz Bobblehead                       -11744.40    9252.85  -1.269
+promoBrooks Bobblehead                             -12568.06   11734.33  -1.071
+promoBrooks Rosinson moved to 9/29/12               12065.97   11115.18   1.086
+promoBuck"Snow"alterGlobe, 1/2 Christmas             6618.67   10979.91   0.603
+promoBuckle Up T-Shirt Thursday                     10306.10    9259.22   1.113
+promoBundy Bobblehead                               -5745.18   11383.99  -0.505
+promoCal Ripken Replica Sculpture                   14089.03   11115.18   1.268
+promoCamden Vineyards                               -7343.82   11261.12  -0.652
+promoCar Emblem (DH 4/24 Makeup)                     3737.97   11115.18   0.336
+promoChick-fil-A O's Plush Cow                       3054.18   11330.65   0.270
+promoChick-Fil-A Orioles Plush Cow                   5306.56   11143.62   0.476
+promoChris Davis Action Figure                       4900.64    9513.58   0.515
+promoChris Davis Performance Shirt                  15590.97   11115.18   1.403
+promoChris Tillman Growth Poster                     8386.86   11434.08   0.733
+promoCity Schools Night                              7929.39    9409.70   0.843
+promoCooler Backpack                                -9044.26   10961.54  -0.825
+promoCoppin State Hats                              -3089.01   10572.34  -0.292
+promoCrush Davis & Samson Bobblehead                 6857.67    9540.53   0.719
+promoCrush Davis Power T-Shirt                       9714.74   10961.54   0.886
+promoCruuuuuuuz T- Shirt, Bargain Night             10391.15   12170.82   0.854
+promoDAP Cap                                         9936.19   10271.69   0.967
+promoDAP Cap, Kids Run the Bases                    -8868.07   11613.15  -0.764
+promoDAP Hat, DC #4                                 25440.45   11351.47   2.241
+promoDAP Orioles Cap                                 5381.58   11345.17   0.474
+promoDashboard Hula Bird                            -3062.36   11562.17  -0.265
+promoDay Camper Day                                 14107.62   10586.71   1.333
+promoDay Camper Day, Orioles Foam Finger             3841.39    9409.70   0.408
+promoDC #5                                          18747.31    9464.18   1.981
+promoDOC, KRTB                                      -3071.80   11385.66  -0.270
+promoDog Days of August                             -7902.30    9265.58  -0.853
+promoDog Days of August, RAIN Delay                 -6670.90    9259.22  -0.720
+promoDoubleheader - 4/8 Makeup game                 17103.18   11261.12   1.519
+promoDraft Day Orioles/Ravens Rally Cap             22020.18   11261.12   1.955
+promoDrawstring Bag                                 10886.38   12359.01   0.881
+promoDuffle Bag, KRTB                                4096.25   11822.32   0.346
+promoDugout Club                                     4874.74    8227.24   0.593
+promoDugout Club #6                                  2870.78   12525.40   0.229
+promoDugout Club #7                                  8253.32   10727.90   0.769
+promoDugout Club Slugger                             9272.16   10150.04   0.914
+promoDugout Club, Topps Card, KRTB                  11540.20   11385.66   1.014
+promoDugout, Kids Run the Bases                     11776.58   11345.17   1.038
+promoDylan Bundy T-Shirt                            10883.26   10776.92   1.010
+promoEar Buds                                       13978.86   11434.08   1.223
+promoEarl Memorial                                  16827.02   12676.76   1.327
+promoEarl Weaver Replica Sculpture                   3404.87    9408.59   0.362
+promoEarthDay MLB Tote, Kids Run Bases               7159.45   11351.47   0.631
+promoEaster - Kids Run the Bases                    -7249.79   11485.87  -0.631
+promoEaster Sunday                                  -3529.79   11485.87  -0.307
+promoEddie Murray Replica Sculpture                 11581.29    9410.89   1.231
+promoExclusive Orioles Card Set, Kids Run            5029.17   11435.40   0.440
+promoFan Ap, Choice Bobblehead, Brooks               9027.23    9255.23   0.975
+promoFan Appreciation                                7798.60    9553.63   0.816
+promoFan Appreciation Cel./ Bargain Night            2090.79   11938.80   0.175
+promoFan Appreciation Celebration                    5104.45    9231.34   0.553
+promoFan Appreciation Weekend                        4765.93    9598.41   0.497
+promoFan Appreciation Weekend, Student Night        -1734.80   12531.27  -0.138
+promoFan Appreciation, Bargain Night                 2883.16   12029.31   0.240
+promoFan Appreciation, Choice Bobblehead            11091.84   10045.70   1.104
+promoFan Appreciation, Oktoberfest Tankard           -336.43   11157.24  -0.030
+promoFan Appreciation, Student, Fireworks            3841.03   11480.17   0.335
+promoFan Appreciation, T Shirt #3                    9879.70    9265.58   1.066
+promoFans Choice- Pearce Bobblehead                  -811.49   10067.32  -0.081
+promoFans Choice Bobble, Fan App.                    5190.84   10045.70   0.517
+promoFather's Day Catch, Necktie, KRTB               3803.56   12977.84   0.293
+promoFather's Day Fedora Hat                        27024.18   11330.65   2.385
+promoFather's Day Travel Kit                        15722.81   11218.85   1.401
+promoFather's Day, Newsboy Cap                      19579.18   11330.65   1.728
+promoFathers Day - Play Catch, Fedora                2375.81   11218.85   0.212
+promoField of Dreams Movie                            316.20   11028.44   0.029
+promoField Trip Day                                 13373.29    8373.48   1.597
+promoField Trip Day - Senior Theme                   5965.00    9049.60   0.659
+promoField Trip Day (Rain Delay)                    14999.74    9506.72   1.578
+promoField Trip Day, Kid's Night                     2852.74    9506.72   0.300
+promoFireworks (Rain Delay 56 min)                  11367.31    9464.18   1.201
+promoFireworks, Student & Union Night               27096.22   12298.89   2.203
+promoFireworks, Student Night                        8544.69   10772.12   0.793
+promoFireworks, Student Night, Fan App.             16000.85   12450.87   1.285
+promoFrank Robinson Replica Sculpture               -4610.72    9425.86  -0.489
+promoGame of Thrones                                 -959.84   11256.13  -0.085
+promoGame of Thrones Promotion                       4207.84   12124.71   0.347
+promoGold Glove T-Shirt Thursday                     1094.51    8085.05   0.135
+promoGolf Umbrella                                  16486.85   12039.39   1.369
+promoGonzalez"El Mariachi"T-Shirt,9/29MU            11406.99   10572.34   1.079
+promoHalf Way to Christmas, Nutcracker               5840.72   12077.15   0.484
+promoHardy T-Shirt                                   6847.69    9403.55   0.728
+promoHawaiian Shirt                                 12310.93   11613.15   1.060
+promoHome Savings 2110 Eutaw Street                   593.60    9611.57   0.062
+promoHooded Sweatshirt                               5235.40    9903.62   0.529
+promoHot Dog T-Shirt Race                           -8628.26   10961.54  -0.787
+promoHuff T-Shirt Tuesday, Bargain Night             6027.56   12036.35   0.501
+promoInfielders Bottle Stopper Set                   7558.64   11562.17   0.654
+promoInfinity Bracelet, Mothers Day                 -5035.80   11385.66  -0.442
+promoIzturis T-Shirt Tuesday, Bargain Night          4852.46   11831.66   0.410
+promoJackie Robinson Day - Makeup                   10482.39   10634.90   0.986
+promoJackie Robinson Day, Bargain Night              3575.56   12036.35   0.297
+                                                   Pr(>|t|)    
+(Intercept)                                        0.012990 *  
+opponentATL                                        0.984806    
+opponentBOS                                        0.615769    
+opponentCHC                                        0.786913    
+opponentCIN                                        0.112533    
+opponentCLE                                        0.334171    
+opponentCOL                                        0.612840    
+opponentCWS                                        0.140366    
+opponentDET                                        0.593589    
+opponentHOU                                        0.379868    
+opponentKC                                         0.211933    
+opponentLAA                                        0.390321    
+opponentLAD                                        0.588637    
+opponentMIA                                        0.295771    
+opponentMIN                                        0.260749    
+opponentNYM                                        0.584089    
+opponentNYY                                        0.670029    
+opponentOAK                                        0.320712    
+opponentPHI                                        0.776752    
+opponentPIT                                        0.268874    
+opponentSD                                         0.414244    
+opponentSEA                                        0.335025    
+opponentSF                                         0.107581    
+opponentSTL                                        0.458256    
+opponentTB                                         0.200570    
+opponentTEX                                        0.158424    
+opponentTOR                                        0.299831    
+opponentWSH                                        0.815966    
+dayMon                                             0.713046    
+daySat                                             0.477857    
+daySun                                             0.791506    
+dayThu                                             0.934686    
+dayTue                                             0.767367    
+dayWed                                             0.816578    
+bobblehead                                         0.497920    
+promo(1st Freddie Gray Hearing)                    0.718893    
+promo(2:14 RAIN DELAY)                             0.580447    
+promo(4/19 RAIN - 4/20 split adm DH)               0.899091    
+promo(4:35Rain delay)T-shirt,Dugout,KRTB           0.451900    
+promo(Day before Grand Prix Weekend)               0.785615    
+promo(Rain Delay 1:38)                             0.780918    
+promo(Rain Delay 2 hours 31 min)                   0.697795    
+promo(Ravens Opening Date conflict)                0.620478    
+promo(short game due to rain)                      0.631051    
+promo(Time change)                                 0.655784    
+promo(tornado watch earlier)                       0.692586    
+promo1954 Orioles Cap                              0.159935    
+promo1966 Jim Palmer Jersey, Dugout Club           0.123211    
+promo1970 WS 40th Anniversary Celebration          0.409626    
+promo1983 Floppy Hat, Student, Fireworks           0.037981 *  
+promo200th Anniversary of the Star Spangled Banner 0.117994    
+promo2014 AL East Champions Wall Art               0.171936    
+promo20th Anniv Tumbler Voucher & T-Shirt          0.473165    
+promo2110 Eutaw Street                             0.892551    
+promo2110 Eutaw Street, Girl Scout Night           0.622151    
+promo25 min. rain delay                            0.174734    
+promo25th Anniversary Replica Ballpark             0.247059    
+promo30 min. rain delay                            0.574218    
+promo4/22 ~ 8/27 Makeup game                       0.311750    
+promo4/29 & 4/30 DH Makeup games                   0.238834    
+promo4/9 Makeup Game                               0.817638    
+promo5/06 Makeup game                              0.429583    
+promo5/15 Makeup Game                              0.548620    
+promo6/27 Makeup Game, Kids run Bases              0.083393 .  
+promo6/3 Makeup                                    0.868079    
+promo60th Anniversary 3/4 sleeve T Shirt           0.084886 .  
+promo60th Anniversary Laser show                   0.070980 .  
+promo7/25 Makeup, BARCS                            0.289007    
+promo8/26 Makeup Game                              0.109853    
+promo8/27 Makeup Game                              0.321803    
+promoA League of Their Own Movie, T-shirt          0.690871    
+promoAdam Jones Bobblehead                         0.700648    
+promoAdam Jones Mini Bobblehead, Kids Night        0.535100    
+promoAdam Jones Replica Jersey                     0.044776 *  
+promoAT&T Matt Weiters Bobblehead                  0.887529    
+promoAT&T Student Night                            0.891190    
+promoAT&T Student Night, Fireworks                 0.881562    
+promoAT&T Student Nigjht                           0.475951    
+promoAutism Awareness Day                          0.573093    
+promoAutism Awareness Night                        0.539754    
+promoAutism Awareness/Student Night                0.530996    
+promoBargain                                       0.322293    
+promoBargain Night                                 0.670633    
+promoBargain Night, Bud Norris T-shirt             0.142204    
+promoBargain Night, Cal Ripken 2131                0.324556    
+promoBargain Night, DC #3                          0.616176    
+promoBargain Night, Miller Lite Flopy Hat          0.244625    
+promoBargain, Birdland Social Media Night          0.244601    
+promoBargain, Social Media Night                   0.817300    
+promoBark at the Park                              0.416538    
+promoBark in the Park                              0.653328    
+promoBaseball Cards, Orioles HOF                   0.607035    
+promoBBQ "O" Spatula, Dugout Club                  0.102651    
+promoBeach Towel                                   0.122553    
+promoBergesen T-Shirt Tuesday, Bargain Night       0.472985    
+promoBird Bank, Kids run bases                     0.926871    
+promoBird Bobblehead                               0.330606    
+promoBird Bobblehead, Toothbrush holder            0.937608    
+promoBirdland Hawaiian Shirt                       0.395391    
+promoBirdland Social                               0.499983    
+promoBirdland Social Media Night                   0.540181    
+promoBirdland Summer Garden Gnome                  0.609644    
+promoBirdland Yard Flag                            0.869243    
+promoBoy Scout Night                               0.663900    
+promoBP Pullover                                   0.272241    
+promoBrian Matusz Bobblehead                       0.206110    
+promoBrooks Bobblehead                             0.285692    
+promoBrooks Rosinson moved to 9/29/12              0.279247    
+promoBuck"Snow"alterGlobe, 1/2 Christmas           0.547460    
+promoBuckle Up T-Shirt Thursday                    0.267281    
+promoBundy Bobblehead                              0.614455    
+promoCal Ripken Replica Sculpture                  0.206724    
+promoCamden Vineyards                              0.515208    
+promoCar Emblem (DH 4/24 Makeup)                   0.737071    
+promoChick-fil-A O's Plush Cow                     0.787839    
+promoChick-Fil-A Orioles Plush Cow                 0.634556    
+promoChris Davis Action Figure                     0.607150    
+promoChris Davis Performance Shirt                 0.162570    
+promoChris Tillman Growth Poster                   0.464284    
+promoCity Schools Night                            0.400611    
+promoCooler Backpack                               0.410498    
+promoCoppin State Hats                             0.770513    
+promoCrush Davis & Samson Bobblehead               0.473273    
+promoCrush Davis Power T-Shirt                     0.376754    
+promoCruuuuuuuz T- Shirt, Bargain Night            0.394452    
+promoDAP Cap                                       0.334774    
+promoDAP Cap, Kids Run the Bases                   0.446169    
+promoDAP Hat, DC #4                                0.026334 *  
+promoDAP Orioles Cap                               0.635870    
+promoDashboard Hula Bird                           0.791444    
+promoDay Camper Day                                0.184486    
+promoDay Camper Day, Orioles Foam Finger           0.683622    
+promoDC #5                                         0.049248 *  
+promoDOC, KRTB                                     0.787651    
+promoDog Days of August                            0.394955    
+promoDog Days of August, RAIN Delay                0.472249    
+promoDoubleheader - 4/8 Makeup game                0.130708    
+promoDraft Day Orioles/Ravens Rally Cap            0.052203 .  
+promoDrawstring Bag                                0.379667    
+promoDuffle Bag, KRTB                              0.729415    
+promoDugout Club                                   0.554309    
+promoDugout Club #6                                0.818997    
+promoDugout Club #7                                0.442783    
+promoDugout Club Slugger                           0.362291    
+promoDugout Club, Topps Card, KRTB                 0.312253    
+promoDugout, Kids Run the Bases                    0.300759    
+promoDylan Bundy T-Shirt                           0.314020    
+promoEar Buds                                      0.223218    
+promoEarl Memorial                                 0.186191    
+promoEarl Weaver Replica Sculpture                 0.717892    
+promoEarthDay MLB Tote, Kids Run Bases             0.529095    
+promoEaster - Kids Run the Bases                   0.528778    
+promoEaster Sunday                                 0.758986    
+promoEddie Murray Replica Sculpture                0.220193    
+promoExclusive Orioles Card Set, Kids Run          0.660658    
+promoFan Ap, Choice Bobblehead, Brooks             0.330790    
+promoFan Appreciation                              0.415493    
+promoFan Appreciation Cel./ Bargain Night          0.861193    
+promoFan Appreciation Celebration                  0.581039    
+promoFan Appreciation Weekend                      0.620171    
+promoFan Appreciation Weekend, Student Night       0.890062    
+promoFan Appreciation, Bargain Night               0.810874    
+promoFan Appreciation, Choice Bobblehead           0.271122    
+promoFan Appreciation, Oktoberfest Tankard         0.975981    
+promoFan Appreciation, Student, Fireworks          0.738362    
+promoFan Appreciation, T Shirt #3                  0.287836    
+promoFans Choice- Pearce Bobblehead                0.935851    
+promoFans Choice Bobble, Fan App.                  0.606034    
+promoFather's Day Catch, Necktie, KRTB             0.769824    
+promoFather's Day Fedora Hat                       0.018197 *  
+promoFather's Day Travel Kit                       0.162931    
+promoFather's Day, Newsboy Cap                     0.085840 .  
+promoFathers Day - Play Catch, Fedora              0.832545    
+promoField of Dreams Movie                         0.977161    
+promoField Trip Day                                0.112134    
+promoField Trip Day - Senior Theme                 0.510711    
+promoField Trip Day (Rain Delay)                   0.116503    
+promoField Trip Day, Kid's Night                   0.764493    
+promoFireworks (Rain Delay 56 min)                 0.231418    
+promoFireworks, Student & Union Night              0.028954 *  
+promoFireworks, Student Night                      0.428774    
+promoFireworks, Student Night, Fan App.            0.200530    
+promoFrank Robinson Replica Sculpture              0.625373    
+promoGame of Thrones                               0.932147    
+promoGame of Thrones Promotion                     0.728993    
+promoGold Glove T-Shirt Thursday                   0.892479    
+promoGolf Umbrella                                 0.172710    
+promoGonzalez"El Mariachi"T-Shirt,9/29MU           0.282167    
+promoHalf Way to Christmas, Nutcracker             0.629291    
+promoHardy T-Shirt                                 0.467510    
+promoHawaiian Shirt                                0.290637    
+promoHome Savings 2110 Eutaw Street                0.950829    
+promoHooded Sweatshirt                             0.597761    
+promoHot Dog T-Shirt Race                          0.432316    
+promoHuff T-Shirt Tuesday, Bargain Night           0.617186    
+promoInfielders Bottle Stopper Set                 0.514179    
+promoInfinity Bracelet, Mothers Day                0.658849    
+promoIzturis T-Shirt Tuesday, Bargain Night        0.682240    
+promoJackie Robinson Day - Makeup                  0.325726    
+promoJackie Robinson Day, Bargain Night            0.766787    
+ [ reached getOption("max.print") -- omitted 208 rows ]
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 6399 on 167 degrees of freedom
+  (305 observations deleted due to missingness)
+Multiple R-squared:  0.8741,	Adjusted R-squared:  0.5704 
+F-statistic: 2.878 on 403 and 167 DF,  p-value: 5.416e-14
+
